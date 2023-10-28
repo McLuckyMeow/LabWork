@@ -49,7 +49,7 @@ int main() {
             doubleEvenSum += dbl;
         }
 
-        // Шаг 2: Сложение каждой нечетной цифры, начиная справа, с значением 'doubleEvenSum'.
+        // Шаг 2: Сложение каждой нечетной цифры, начиная справа, с значением 'doubleEvenSum'.  
 
         for (int i = length - 1; i >= 0; i = i - 2) {
             doubleEvenSum += (cardNumber[i] - 48);
